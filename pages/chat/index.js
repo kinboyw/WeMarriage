@@ -44,7 +44,6 @@ Page({
             },
             success: function(res) {
 				wx.hideLoading();
-                console.log(res.data)
                 that.setData({
                     mainInfo: res.data.mainInfo,
                     chatList: res.data.chatList,

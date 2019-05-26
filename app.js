@@ -27,10 +27,13 @@ App({
         wx.playBackgroundAudio()
     },
     globalData: {
-        userInfo: null,
-		appid: 'wxade372ce7f2da061',//此处改成您自己的小程序appid
-        server: 'https://wx.qiaker.cn/api',
-        music_url: ''
+      userInfo: null,
+      appid: 'wx0d437ad12e46ca92',//此处改成您自己的小程序appid
+      //appid:'wxade372ce7f2da061',
+      //server: 'https://wx.qiaker.cn/api',
+      server:'https://wx.kinboy.wang/api',
+      music_url: ''
     }
+    
 });
 

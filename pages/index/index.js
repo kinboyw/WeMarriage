@@ -57,7 +57,6 @@ Page({
                 'Accept': 'application/json'
             },
             success: function(res) {
-                //console.log(res.data)
                 wx.hideLoading();
                 wx.playBackgroundAudio({
                     dataUrl: res.data.music_url,
